@@ -1,0 +1,146 @@
+﻿Python 3.5.3 (v3.5.3:1880cb95a742, Jan 16 2017, 16:02:32) [MSC v.1900 64 bit (AMD64)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> 
+====== RESTART: C:\Users\76947\Desktop\machine learning\plot_gallary.py ======
+正在采集图像数据...
+图片信息采集完毕！花费了9.126秒
+------------------------------------------
+总数据库的规模如下:
+样本数: 1110
+特征数: 80000
+分类数: 5
+------------------------------------------
+正在进行降维处理...
+完成！花费了 28.129秒
+数据分类降维完毕！
+------------------------------------------
+正在进行训练...
+完成，共计 8.308秒
+最优分类向量机找到:
+SVC(C=1000.0, cache_size=200, class_weight='balanced', coef0=0.0,
+  decision_function_shape=None, degree=3, gamma=0.1, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+------------------------------------------
+正在预测图片...
+完成预测，共计 0.016秒
+------------------------------------------
+预测结果如下：
+             precision    recall  f1-score   support
+
+  airplanes       0.93      0.99      0.95       213
+      brain       0.77      0.81      0.79        21
+      chair       0.18      0.20      0.19        10
+    dolphin       0.80      0.42      0.55        19
+  sunflower       0.75      0.40      0.52        15
+
+avg / total       0.87      0.87      0.86       278
+
+[[210   1   1   1   0]
+ [  2  17   2   0   0]
+ [  7   0   2   0   1]
+ [  4   1   5   8   1]
+ [  4   3   1   1   6]]
+------------------------------------------
+预测的准确率为： 0.8741007194244604
+{'target:': 'brain', 'predict:': 'brain'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'dolphin', 'predict:': 'brain'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'brain', 'predict:': 'brain'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'dolphin', 'predict:': 'chair'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'sunflower', 'predict:': 'brain'}
+{'target:': 'dolphin', 'predict:': 'airplanes'}
+{'target:': 'dolphin', 'predict:': 'sunflower'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'dolphin', 'predict:': 'airplanes'}
+{'target:': 'brain', 'predict:': 'brain'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'brain', 'predict:': 'brain'}
+{'target:': 'brain', 'predict:': 'brain'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'brain', 'predict:': 'airplanes'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'sunflower', 'predict:': 'sunflower'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'sunflower', 'predict:': 'sunflower'}
+{'target:': 'dolphin', 'predict:': 'airplanes'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'chair', 'predict:': 'airplanes'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'dolphin', 'predict:': 'dolphin'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'sunflower', 'predict:': 'sunflower'}
+{'target:': 'airplanes', 'predict:': 'chair'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'brain', 'predict:': 'brain'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'brain', 'predict:': 'brain'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'dolphin', 'predict:': 'dolphin'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'chair', 'predict:': 'airplanes'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'chair', 'predict:': 'sunflower'}
+{'target:': 'dolphin', 'predict:': 'chair'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'sunflower', 'predict:': 'airplanes'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'airplanes', 'predict:': 'airplanes'}
+{'target:': 'brain', 'predict:': 'brain'}
+>>> 
