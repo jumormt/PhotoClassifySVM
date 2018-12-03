@@ -1,5 +1,6 @@
 # 采用支撑向量机实现图片分类，做了图形化界面
 
+运行 python 宝宝快点我.py 
 
 python version:python 3.5.3
 需要安装的package：
