@@ -27,3 +27,7 @@ get_svm.py 用于生成支持向量机
 
 -------------------------------------------
 
+## 运行截图
+
+![](https://github.com/jumormt/PhotoClassifySVM/blob/master/Snipaste_2018-12-03_21-02-35.png)
+
